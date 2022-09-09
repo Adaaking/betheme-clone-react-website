@@ -180,7 +180,20 @@ li{
     color: white;
     font-size: 60px;
     margin-bottom: 2rem;
+    animation: bold-text 1s ease-out forwards;
 }
+
+@keyframes bold-text{
+    0%{
+        opacity: 0;
+        transform: translateX(5rem);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
 .home .home-btn{
     width: 7rem;
     padding: 10px;
@@ -845,6 +858,8 @@ li{
     height: 100%;
     background-color: rgba(69, 56, 56,0.5);
     position: fixed;
+    transform: translateX(-100);
+    transition: all 2s ease;
     z-index: 3;
     top: 0;
     right: 0;

@@ -4,7 +4,7 @@ import { menuActions } from '../../state/menu-slice';
 
 const Menu = ( { menu }) => {
   const dispatch = useDispatch();
-
+  
     const {title, items} = menu;
   return (
     <div className='menu-categories'>

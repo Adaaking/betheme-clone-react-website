@@ -8,7 +8,7 @@ const Sidebar = () => {
   const sidebars = useSelector((state) => state.navbar.links);
   const dispatch = useDispatch();
   return (
-    <div className="sidebar">
+    <div className="sidebar show">
       <div
         className="sidebar-items"
         onClick={() => dispatch(navbarActions.closeNavbar())}

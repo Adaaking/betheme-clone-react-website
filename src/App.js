@@ -1,14 +1,11 @@
 import { useSelector } from "react-redux";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from "./components/About/About";
-import Contact from "./components/contact/Contact";
-import Map from "./components/contact/Map";
-import EventFragment from "./components/Events/EventFragment";
-import EventsHeader from "./components/Events/EventsHeader";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import EventFragment from "./pages/EventFragment";
 import Footer from "./components/Footer";
-import Home from "./components/home/Home";
-import AllMenus from "./components/menu/AllMenus";
-import MenuTop from "./components/menu/MenuTop";
+import Home from "./pages/Home";
+import AllMenus from "./pages/AllMenus";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 
